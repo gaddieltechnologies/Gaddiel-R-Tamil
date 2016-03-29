@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@drawable/home3">
+
+    <TextView
+        android:id="@+id/textView101"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_above="@+id/btnCustom"
+        android:textColor="@color/mystry"
+        tools:context=".MainActivity" />
+
+    <Button
+        android:id="@+id/btnCustom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:minEms="5"
+        android:onClick="onCustomClick2"
+        android:autoLink="web"
+        android:text="@string/cust_button"
+        android:textSize="10dp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:minEms="5"
+        android:onClick="onClick"
+        android:text="@string/begin"
+        android:textSize="10dp" />
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+         android:layout_above="@+id/textView101"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="8dp"
+        android:prompt="@string/mysteries_prompt" />
+      
+      <ImageButton
+        android:id="@+id/alarmbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/textView101"
+        android:layout_centerHorizontal="true"
+        android:onClick="onalarmClick"
+        android:src="@drawable/ic_lock_idle_alar" />
+
+</RelativeLayout>

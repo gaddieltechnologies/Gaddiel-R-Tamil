@@ -1,0 +1,662 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView 
+     xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center"
+    android:fillViewport="true" 
+    android:orientation="vertical">
+   
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:stretchColumns="*" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="6dp" >
+
+            <TextView
+                android:id="@+id/TextView01"
+                android:layout_width="180dp"
+                android:layout_height="30dp"
+                android:text="@string/prayer_1"
+                android:textColor="@color/audiotext"
+                 />
+
+            <ImageView
+                android:id="@+id/ImageView1"
+                android:layout_width="40dp"
+                android:layout_height="35dp"
+                android:onClick="play"
+                android:src="@drawable/ic_play1" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="6dp" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="180dp"
+                android:layout_height="30dp"
+                android:text="@string/prayer_2"
+                android:textColor="@color/audiotext"
+                 />
+
+            <ImageView
+                android:id="@+id/ImageView3"
+                android:layout_width="40dp"
+                android:layout_height="35dp"
+                android:onClick="play"
+                android:src="@drawable/ic_play1" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="6dp" >
+
+            <TextView
+                android:id="@+id/TextView02"
+                android:layout_width="180dp"
+                android:layout_height="30dp"
+                android:text="@string/prayer_3"
+                android:textColor="@color/audiotext"/>
+
+            <ImageView
+                android:id="@+id/ImageView5"
+                android:layout_width="40dp"
+                android:layout_height="35dp"
+                android:onClick="play"
+                android:src="@drawable/ic_play1" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="6dp" >
+
+            <TextView
+                android:id="@+id/TextView03"
+                android:layout_width="180dp"
+                android:layout_height="30dp"
+                android:text="@string/prayer_4"
+                android:textColor="@color/audiotext" />
+
+            <ImageView
+                android:id="@+id/ImageView7"
+                android:layout_width="40dp"
+                android:layout_height="35dp"
+                android:onClick="play"
+                android:src="@drawable/ic_play1" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="6dp" >
+
+            <TextView
+                android:id="@+id/TextView04"
+                android:layout_width="180dp"
+                android:layout_height="30dp"
+                android:text="@string/prayer_5"
+                android:textColor="@color/audiotext" />
+
+            <ImageView
+                android:id="@+id/ImageView9"
+                android:layout_width="40dp"
+                android:layout_height="35dp"
+                android:onClick="play"
+                android:src="@drawable/ic_play1" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="6dp" >
+
+            <TextView
+                android:id="@+id/TextView05"
+                android:layout_width="180dp"
+                android:layout_height="30dp"
+                android:text="@string/prayer_6"
+                android:textColor="@color/audiotext" />
+
+            <ImageView
+                android:id="@+id/ImageView11"
+                android:layout_width="40dp"
+                android:layout_height="35dp"
+                android:onClick="play"
+                android:src="@drawable/ic_play1" />
+        </TableRow>
+                
+        <TableRow
+            android:id="@+id/tableRow28"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="6dp" >
+
+         <TextView
+                   android:id="@+id/TextView101"
+                   android:layout_width="180dp"
+                   android:layout_height="30dp"
+                   android:text="@string/title_activity1"
+                   android:textStyle="bold|italic"
+                   android:textColor="@color/heading"/>
+             
+          </TableRow>
+          
+         <TableRow
+            android:id="@+id/tableRow7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="6dp" >
+
+            <TextView
+                android:id="@+id/TextView06"
+                android:layout_width="180dp"
+                android:layout_height="30dp"
+                android:text="@string/prayer_7"
+                android:textColor="@color/audiotext" />
+
+            <ImageView
+                android:id="@+id/ImageView13"
+                android:layout_width="40dp"
+                android:layout_height="35dp"
+                android:onClick="play"
+                android:src="@drawable/ic_play1" />
+        </TableRow>
+        
+          <TableRow
+            android:id="@+id/tableRow8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="6dp" >
+
+            <TextView
+                android:id="@+id/TextView07"
+                android:layout_width="180dp"
+                android:layout_height="30dp"
+                android:text="@string/prayer_8"
+                android:textColor="@color/audiotext" />
+
+            <ImageView
+                android:id="@+id/ImageView14"
+                android:layout_width="40dp"
+                android:layout_height="35dp"
+                android:onClick="play"
+                android:src="@drawable/ic_play1" />
+        </TableRow>
+        
+          
+          <TableRow
+            android:id="@+id/tableRow9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="6dp" >
+
+            <TextView
+                android:id="@+id/TextView08"
+                android:layout_width="180dp"
+                android:layout_height="30dp"
+                android:text="@string/prayer_9"
+                android:textColor="@color/audiotext" />
+
+            <ImageView
+                android:id="@+id/ImageView15"
+                android:layout_width="40dp"
+                android:layout_height="35dp"
+                android:onClick="play"
+                android:src="@drawable/ic_play1" />
+        </TableRow>
+        
+           <TableRow
+            android:id="@+id/tableRow10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="6dp" >
+
+            <TextView
+                android:id="@+id/TextView09"
+                android:layout_width="180dp"
+                android:layout_height="30dp"
+                android:text="@string/prayer_10"
+                android:textColor="@color/audiotext" />
+
+            <ImageView
+                android:id="@+id/ImageView16"
+                android:layout_width="40dp"
+                android:layout_height="35dp"
+                android:onClick="play"
+                android:src="@drawable/ic_play1" />
+        </TableRow>
+        
+           <TableRow
+            android:id="@+id/tableRow11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="6dp" >
+
+            <TextView
+                android:id="@+id/TextView10"
+                android:layout_width="180dp"
+                android:layout_height="30dp"
+                android:text="@string/prayer_11"
+                android:textColor="@color/audiotext" />
+
+            <ImageView
+                android:id="@+id/ImageView17"
+                android:layout_width="40dp"
+                android:layout_height="35dp"
+                android:onClick="play"
+                android:src="@drawable/ic_play1" />
+        </TableRow>
+        
+           <TableRow
+            android:id="@+id/tableRow29"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="6dp" >
+
+         <TextView
+                   android:id="@+id/TextView102"
+                   android:layout_width="180dp"
+                   android:layout_height="30dp"
+                   android:text="@string/title_activity2"
+                   android:textStyle="bold|italic"
+                   android:textColor="@color/heading"/>
+             
+          </TableRow>
+          
+            <TableRow
+            android:id="@+id/tableRow12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="6dp" >
+
+            <TextView
+                android:id="@+id/TextView11"
+                android:layout_width="180dp"
+                android:layout_height="30dp"
+                android:text="@string/prayer_12"
+                android:textColor="@color/audiotext" />
+
+            <ImageView
+                android:id="@+id/ImageView18"
+                android:layout_width="40dp"
+                android:layout_height="35dp"
+                android:onClick="play"
+                android:src="@drawable/ic_play1" />
+        </TableRow>
+        
+             <TableRow
+            android:id="@+id/tableRow13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="6dp" >
+
+            <TextView
+                android:id="@+id/TextView12"
+                android:layout_width="180dp"
+                android:layout_height="30dp"
+                android:text="@string/prayer_13"
+                android:textColor="@color/audiotext" />
+
+            <ImageView
+                android:id="@+id/ImageView19"
+                android:layout_width="40dp"
+                android:layout_height="35dp"
+                android:onClick="play"
+                android:src="@drawable/ic_play1" />
+        </TableRow>
+       
+         <TableRow
+            android:id="@+id/tableRow14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="6dp" >
+
+            <TextView
+                android:id="@+id/TextView13"
+                android:layout_width="180dp"
+                android:layout_height="30dp"
+                android:text="@string/prayer_14"
+                android:textColor="@color/audiotext" />
+
+            <ImageView
+                android:id="@+id/ImageView20"
+                android:layout_width="40dp"
+                android:layout_height="35dp"
+                android:onClick="play"
+                android:src="@drawable/ic_play1" />
+        </TableRow>
+        
+         <TableRow
+            android:id="@+id/tableRow15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="6dp" >
+
+            <TextView
+                android:id="@+id/TextView14"
+                android:layout_width="180dp"
+                android:layout_height="30dp"
+                android:text="@string/prayer_15"
+                android:textColor="@color/audiotext" />
+
+            <ImageView
+                android:id="@+id/ImageView21"
+                android:layout_width="40dp"
+                android:layout_height="35dp"
+                android:onClick="play"
+                android:src="@drawable/ic_play1" />
+        </TableRow>
+        
+         <TableRow
+            android:id="@+id/tableRow16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="6dp" >
+
+            <TextView
+                android:id="@+id/TextView15"
+                android:layout_width="180dp"
+                android:layout_height="30dp"
+                android:text="@string/prayer_16"
+                android:textColor="@color/audiotext"/>
+
+            <ImageView
+                android:id="@+id/ImageView22"
+                android:layout_width="40dp"
+                android:layout_height="35dp"
+                android:onClick="play"
+                android:src="@drawable/ic_play1" />
+        </TableRow>
+        
+         <TableRow
+            android:id="@+id/tableRow30"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="6dp" >
+
+         <TextView
+                   android:id="@+id/TextView103"
+                   android:layout_width="180dp"
+                   android:layout_height="30dp"
+                   android:textStyle="bold|italic"
+                   android:text="@string/title_activity3"
+                   android:textColor="@color/heading"/>
+             
+          </TableRow>
+          
+         <TableRow
+            android:id="@+id/tableRow17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="6dp" >
+
+            <TextView
+                android:id="@+id/TextView16"
+                android:layout_width="180dp"
+                android:layout_height="30dp"
+                android:text="@string/prayer_17"
+                android:textColor="@color/audiotext" />
+
+            <ImageView
+                android:id="@+id/ImageView23"
+                android:layout_width="40dp"
+                android:layout_height="35dp"
+                android:onClick="play"
+                android:src="@drawable/ic_play1" />
+        </TableRow>
+        
+         <TableRow
+            android:id="@+id/tableRow18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="6dp" >
+
+            <TextView
+                android:id="@+id/TextView17"
+                android:layout_width="180dp"
+                android:layout_height="30dp"
+                android:text="@string/prayer_18"
+                android:textColor="@color/audiotext" />
+
+            <ImageView
+                android:id="@+id/ImageView24"
+                android:layout_width="40dp"
+                android:layout_height="35dp"
+                android:onClick="play"
+                android:src="@drawable/ic_play1" />
+        </TableRow>
+        
+         <TableRow
+            android:id="@+id/tableRow19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="6dp" >
+
+            <TextView
+                android:id="@+id/TextView18"
+                android:layout_width="180dp"
+                android:layout_height="30dp"
+                android:text="@string/prayer_19"
+                android:textColor="@color/audiotext" />
+
+            <ImageView
+                android:id="@+id/ImageView25"
+                android:layout_width="40dp"
+                android:layout_height="35dp"
+                android:onClick="play"
+                android:src="@drawable/ic_play1" />
+        </TableRow>
+        
+         <TableRow
+            android:id="@+id/tableRow20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="6dp" >
+
+            <TextView
+                android:id="@+id/TextView19"
+                android:layout_width="180dp"
+                android:layout_height="30dp"
+                android:text="@string/prayer_20"
+                android:textColor="@color/audiotext" />
+
+            <ImageView
+                android:id="@+id/ImageView26"
+                android:layout_width="40dp"
+                android:layout_height="35dp"
+                android:onClick="play"
+                android:src="@drawable/ic_play1" />
+        </TableRow>
+        
+         <TableRow
+            android:id="@+id/tableRow21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="6dp" >
+
+            <TextView
+                android:id="@+id/TextView20"
+                android:layout_width="180dp"
+                android:layout_height="30dp"
+                android:text="@string/prayer_21"
+                 android:textColor="@color/audiotext" />
+
+            <ImageView
+                android:id="@+id/ImageView27"
+                android:layout_width="40dp"
+                android:layout_height="35dp"
+                android:onClick="play"
+                android:src="@drawable/ic_play1" />
+        </TableRow>
+        
+         <TableRow
+            android:id="@+id/tableRow31"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="6dp" >
+
+         <TextView
+                   android:id="@+id/TextView104"
+                   android:layout_width="180dp"
+                   android:layout_height="30dp"
+                   android:textStyle="bold|italic"
+                   android:text="@string/title_activity4"
+                   android:textColor="@color/heading" />
+             
+          </TableRow>
+          
+         <TableRow
+            android:id="@+id/tableRow22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="6dp" >
+
+            <TextView
+                android:id="@+id/TextView21"
+                android:layout_width="180dp"
+                android:layout_height="30dp"
+                android:text="@string/prayer_22"
+                android:textColor="@color/audiotext" />
+
+            <ImageView
+                android:id="@+id/ImageView28"
+                android:layout_width="40dp"
+                android:layout_height="35dp"
+                android:onClick="play"
+                android:src="@drawable/ic_play1" />
+        </TableRow>
+        
+          <TableRow
+            android:id="@+id/tableRow23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="6dp" >
+
+            <TextView
+                android:id="@+id/TextView22"
+                android:layout_width="180dp"
+                android:layout_height="30dp"
+                android:text="@string/prayer_23"
+                android:textColor="@color/audiotext" />
+
+            <ImageView
+                android:id="@+id/ImageView29"
+                android:layout_width="40dp"
+                android:layout_height="35dp"
+                android:onClick="play"
+                android:src="@drawable/ic_play1" />
+        </TableRow>
+        
+           <TableRow
+            android:id="@+id/tableRow24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="6dp" >
+
+            <TextView
+                android:id="@+id/TextView23"
+                android:layout_width="180dp"
+                android:layout_height="30dp"
+                android:text="@string/prayer_24"
+                android:textColor="@color/audiotext" />
+
+            <ImageView
+                android:id="@+id/ImageView30"
+                android:layout_width="40dp"
+                android:layout_height="35dp"
+                android:onClick="play"
+                android:src="@drawable/ic_play1" />
+        </TableRow>
+        
+            <TableRow
+            android:id="@+id/tableRow25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="6dp" >
+
+            <TextView
+                android:id="@+id/TextView24"
+                android:layout_width="180dp"
+                android:layout_height="30dp"
+                android:text="@string/prayer_25"
+                android:textColor="@color/audiotext"/>
+
+            <ImageView
+                android:id="@+id/ImageView31"
+                android:layout_width="40dp"
+                android:layout_height="35dp"
+                android:onClick="play"
+                android:src="@drawable/ic_play1" />
+        </TableRow>
+        
+            <TableRow
+            android:id="@+id/tableRow26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="6dp" >
+
+            <TextView
+                android:id="@+id/TextView25"
+                android:layout_width="180dp"
+                android:layout_height="30dp"
+                android:text="@string/prayer_26"
+                android:textColor="@color/audiotext" />
+
+            <ImageView
+                android:id="@+id/ImageView32"
+                android:layout_width="40dp"
+                android:layout_height="35dp"
+                android:onClick="play"
+                android:src="@drawable/ic_play1" />
+        </TableRow>
+     
+             <TableRow
+            android:id="@+id/tableRow27"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="6dp" >
+
+            <TextView
+                android:id="@+id/TextView26"
+                android:layout_width="180dp"
+                android:layout_height="30dp"
+                android:text="@string/prayer_27"
+                android:textColor="@color/audiotext" />
+
+            <ImageView
+                android:id="@+id/ImageView33"
+                android:layout_width="40dp"
+                android:layout_height="35dp"
+                android:onClick="play"
+                android:src="@drawable/ic_play1" />
+        </TableRow>
+        
+    </TableLayout>
+
+
+</LinearLayout>
+</ScrollView>

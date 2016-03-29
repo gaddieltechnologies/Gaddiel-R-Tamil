@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/h3"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="45dp"
+        android:minEms="5"
+        android:onClick="onClickStart"
+        android:text="@string/record"
+        android:textSize="10dp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="32dp"
+        android:layout_toRightOf="@+id/button2"
+        android:minEms="5"
+        android:onClick="onClickStop"
+        android:text="@string/stop"
+        android:textSize="10dp" />
+    
+    <Chronometer
+        android:id="@+id/chronometer1"
+        android:layout_width="81dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="34dp"
+        android:text="@string/timer" />
+    
+        <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/chronometer1"
+        android:layout_alignLeft="@+id/button2"
+        android:layout_marginBottom="59dp"
+        android:layout_marginLeft="30dp"
+        android:textSize="15dp"
+         android:textColor="@color/audiotext"
+        android:text="@string/prayer_1" />
+    
+
+</RelativeLayout>

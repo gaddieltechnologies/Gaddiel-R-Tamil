@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!-- Tittles Head -->
+     <string name="app_name">ஜெபமாலை</string>
+   
+    <string name="hello_world">Gaddiel டெக்னாலஜிஸ் வரவேற்கிறோம்</string>
+    <string name="menu_settings">தனிப்பயனாக்கம்</string>
+    <string name="title_activity_main">பிரதிபலிக்கின்ற ஜெபமாலை</string>
+    <string name="title_activity_main1">மகிழ்ச்சிநிறை பேருண்மைகள்</string>
+    <string name="title_activity_main2">துயர்நிறை பேருண்மைகள்</string>
+    <string name="title_activity_main3">மகிமைநிறை பேருண்மைகள்</string>
+    <string name="title_activity_main4">ஒளிநிறை பேருண்மைகள்</string>
+    <string name="title_record_popup">பிரதிபலிக்கின்ற ஜெபமாலை</string>
+    
+    <!-- Home page -->        
+      <string name="mysteries_prompt">பேருண்மைகளைத் தேர்ந்தெடுக்கவும்</string>
+       <string-array name="color">
+         <item>மகிழ்ச்சிநிறை பேருண்மைகள்</item>
+         <item>துயர்நிறை பேருண்மைகள்</item>
+          <item>மகிமைநிறை பேருண்மைகள்</item>
+           <item>ஒளிநிறை பேருண்மைகள்</item>         
+    </string-array>
+     <string name="begin">ஆரம்பிக்க</string>
+      <string name="cust_button">தனிப்பயனாக்கம்</string>
+      
+     <string name="joyyy">&#032; மகிழ்ச்சிநிறை பேருண்மைகள் </string>
+    <string name="sorrr">&#032;  துயர்நிறை பேருண்மைகள் </string>
+    <string name="glooo">&#032;  மகிமைநிறை பேருண்மைகள் </string>
+    <string name="lummm">&#032;  ஒளிநிறை பேருண்மைகள் </string>
+   
+    <string name="sun">ஞாயிற்றுக்கிழமையில்</string>
+    <string name="mon">திங்கட்கிழமையில்</string>
+    <string name="tue">செவ்வாய்க்கிழமையில்</string>
+    <string name="wed">புதன்கிழமையில்</string>
+    <string name="thu">வியாழக்கிழமையில்</string>
+    <string name="fri">வெள்ளிக்கிழமையில்</string>
+    <string name="sat">சனிக்கிழமையில்</string>
+       
+    <string name="today">இன்று  &#032;</string>
+    
+     <!-- Cust - Tab  --> 
+       <string name="tabmess1"> திரையில் \n பார்க்கும் மொழி</string>
+       <string name="tabmess2"> உள்ளமைப்பு \n ஒலிப்பதிவுகள்</string>
+       <string name="tabmess3"> பயனாளர் \n ஒலிப்பதிவுகள்</string>
+    
+ <!-- Lang - Tab  -->      
+     <string name="text_1">மொழியைத் தேர்ந்தெடுக்கவும்</string>
+    <string name="radio_eng">ENGLISH</string>
+    <string name="radio_hi">हिंदी</string>
+    <string name="radio_ta">தமிழ்</string>
+    <string name="cust_save">சேமிக்கவும்</string>
+    <string name="Savelangtoast">மொழித் தேர்வு சேமிக்கப்பட்டது</string>
+    <string name="allready">இந்த மொழி ஏற்கனவே தேர்ந்தெடுக்கப்பட்டுள்ளது</string>  
+
+ <!-- Default Audio - Tab  --> 
+ 
+    <string name="title_activity1">மகிழ்ச்சிநிறை பேருண்மைகள்</string>
+    <string name="title_activity2">துயர்நிறை பேருண்மைகள்</string>
+    <string name="title_activity3">மகிமைநிறை பேருண்மைகள்</string>
+    <string name="title_activity4">ஒளிநிறை பேருண்மைகள்</string>
+    
+	  <string name="prayer_1">திருச் சிலுவை</string>
+     <string name="prayer_2">பரலோகத்தில்</string>
+     <string name="prayer_3">அருள் நிறை மரியே</string>
+     <string name="prayer_4">திரித்துவப் புகழ்</string>
+     <string name="prayer_5">ஓ  என் இயேசுவே</string>
+     <string name="prayer_6">விசுவாச அறிக்கை</string>
+     <string name="prayer_7">தூதர் மங்களவார்த்தை கூறல்</string>
+     <string name="prayer_8">மரியாள் எலிசபெத்தைச் சந்தித்தல்</string>
+     <string name="prayer_9">இயேசு பிறத்தல்</string>
+     <string name="prayer_10">இயேசுவை காணிக்கையாக்கல்</string>
+     <string name="prayer_11">இயேசுவை கண்டடைதல்</string>
+     <string name="prayer_12">இரத்தவியர்வை  வியர்த்தல்</string>
+     <string name="prayer_13">கற்றூணில் அடிபடல்</string>
+     <string name="prayer_14">முள்முடி சூடல்</string>
+     <string name="prayer_15">சிலுவையை சுமத்தல்</string>
+     <string name="prayer_16">சிலுவையில் இறத்தல்</string>
+     <string name="prayer_17">இயேசு உயிர்த்தெழல்</string>
+     <string name="prayer_18">விண்ணகம் செல்லல்</string>
+     <string name="prayer_19">ஆவியானவர் வருகை</string>
+     <string name="prayer_20">மரியாள் விண்ணகம் செல்லல்</string>
+     <string name="prayer_21">மரியாள் அரசியாக முடிசூடல்</string>
+     <string name="prayer_22">இயேசுவின் திருமுழுக்கு</string>
+     <string name="prayer_23">தண்ணீர் திரட்சைரசமாதல்</string>
+     <string name="prayer_24">இறையரசை அறிவித்தல்</string>
+     <string name="prayer_25">இயேசுவின் உருமாற்றம்</string>
+     <string name="prayer_26">நற்கருணையை ஏற்படுத்துதல்</string>
+     <string name="prayer_27">புனித மைக்கேல் பிரார்த்தனை</string>  
+	 <string name="check">பயனாளர் விருப்பக் குரலை உபயோகிக்கவும்</string>
+     <string name="Saveaudiotoast">பயனாளர் விருப்பக் குரலை உபயோகிக்க,\n அனைத்து செபங்களையும் ஒலிப்பதிவு செய்யவும்</string> 
+	
+    <string name="pleaserecord1">  திருச் சிலுவை \n செபத்தை ஒலிப்பதிவு செய்யவும் </string>
+     <string name="pleaserecord2">  பரலோகத்தில் \n செபத்தை ஒலிப்பதிவு செய்யவும்</string>
+     <string name="pleaserecord3">  அருள் நிறை மரியே \n செபத்தை ஒலிப்பதிவு செய்யவும்  </string>
+     <string name="pleaserecord4">  திரித்துவப் புகழ் \n செபத்தை ஒலிப்பதிவு செய்யவும் </string>
+     <string name="pleaserecord5">  ஓ  என் இயேசுவே \n செபத்தை ஒலிப்பதிவு செய்யவும் </string>
+     <string name="pleaserecord6">  விசுவாச அறிக்கை \n செபத்தை ஒலிப்பதிவு செய்யவும் </string>
+     <string name="pleaserecord7">  தூதர் மங்களவார்த்தை கூறல் \n செபத்தை ஒலிப்பதிவு செய்யவும்  </string>
+     <string name="pleaserecord8">  மரியாள் எலிசபெத்தைச் சந்தித்தல் \n செபத்தை ஒலிப்பதிவு செய்யவும் </string>
+     <string name="pleaserecord9">  இயேசு பிறத்தல் \n செபத்தை ஒலிப்பதிவு செய்யவும்  </string>
+     <string name="pleaserecord10">  இயேசுவை காணிக்கையாக்கல் \n செபத்தை ஒலிப்பதிவு செய்யவும் </string>
+     <string name="pleaserecord11">  இயேசுவை கண்டடைதல் \n செபத்தை ஒலிப்பதிவு செய்யவும் </string>
+     <string name="pleaserecord12">  இரத்தவியர்வை  வியர்த்தல் \n செபத்தை ஒலிப்பதிவு செய்யவும் </string>
+     <string name="pleaserecord13">  கற்றூணில் அடிபடல் \n செபத்தை ஒலிப்பதிவு செய்யவும் </string>
+     <string name="pleaserecord14">  முள்முடி சூடல் \n செபத்தை ஒலிப்பதிவு செய்யவும் </string>
+     <string name="pleaserecord15">  சிலுவையை சுமத்தல் \n செபத்தை ஒலிப்பதிவு செய்யவும் </string>
+     <string name="pleaserecord16">  சிலுவையில் இறத்தல் \n செபத்தை ஒலிப்பதிவு செய்யவும் </string>
+     <string name="pleaserecord17">  சிலுவையில் உயிர்த்தெழல் \n செபத்தை ஒலிப்பதிவு செய்யவும் </string>
+     <string name="pleaserecord18">  விண்ணகம் செல்லல் \n செபத்தை ஒலிப்பதிவு செய்யவும் </string>
+     <string name="pleaserecord19">  ஆவியானவர் வருகை \n செபத்தை ஒலிப்பதிவு செய்யவும் </string>
+     <string name="pleaserecord20">  மரியாள் விண்ணகம் செல்லல் \n செபத்தை ஒலிப்பதிவு செய்யவும் </string>
+     <string name="pleaserecord21">  மரியாள் அரசியாக முடிசூடல் \n செபத்தை ஒலிப்பதிவு செய்யவும்  </string>
+     <string name="pleaserecord22">  இயேசுவின் திருமுழுக்கு \n செபத்தை ஒலிப்பதிவு செய்யவும் </string>
+     <string name="pleaserecord23">  தண்ணீர் திரட்சைரசமாதல் \n செபத்தை ஒலிப்பதிவு செய்யவும் </string>
+     <string name="pleaserecord24">  இறையரசை அறிவித்தல் \n செபத்தை ஒலிப்பதிவு செய்யவும் </string>
+     <string name="pleaserecord25">  இயேசுவின் உருமாற்றம் \n செபத்தை ஒலிப்பதிவு செய்யவும்  </string>
+     <string name="pleaserecord26">  நற்கருணையை ஏற்படுத்துதல் \n செபத்தை ஒலிப்பதிவு செய்யவும் </string>
+     <string name="pleaserecord27">  புனித மைக்கேல் பிரார்த்தனை \n செபத்தை ஒலிப்பதிவு செய்யவும் </string>
+       
+<!-- User Audio - Tab  -->   
+    <string name="toast1">திருச் சிலுவை \n செபத்தை ஒலிப்பதிவு செய்த பின் கேக்கவும் </string>
+    <string name="toast2"> பரலோகத்தில் \n செபத்தை ஒலிப்பதிவு பின் கேக்கவும்</string>
+    <string name="toast3"> அருள் நிறை மரியே \n செபத்தை ஒலிப்பதிவு செய்த பின் கேக்கவும்  </string>
+    <string name="toast4"> திரித்துவப் புகழ் \n செபத்தை ஒலிப்பதிவு செய்த பின் கேக்கவும் </string>
+    <string name="toast5"> ஓ  என் இயேசுவே \n செபத்தை ஒலிப்பதிவு செய்த பின் கேக்கவும் </string>
+    <string name="toast6"> விசுவாச அறிக்கை \n செபத்தை ஒலிப்பதிவு செய்த பின் கேக்கவும் </string>
+    <string name="toast7"> தூதர் மங்களவார்த்தை கூறல் \n செபத்தை ஒலிப்பதிவு செய்த பின் கேக்கவும்  </string>
+    <string name="toast8"> மரியாள் எலிசபெத்தைச் சந்தித்தல் \n செபத்தை ஒலிப்பதிவு செய்த பின் கேக்கவும் </string>
+    <string name="toast9"> இயேசு பிறத்தல் \n செபத்தை ஒலிப்பதிவு செய்த பின் கேக்கவும்  </string>
+    <string name="toast10">இயேசுவை காணிக்கையாக்கல் \n செபத்தை ஒலிப்பதிவு செய்த பின் கேக்கவும் </string>
+    <string name="toast11"> இயேசுவை கண்டடைதல் \n செபத்தை ஒலிப்பதிவு செய்த பின் கேக்கவும் </string>
+    <string name="toast12">இரத்தவியர்வை  வியர்த்தல் \n செபத்தை ஒலிப்பதிவு செய்த பின் கேக்கவும் </string>
+    <string name="toast13">கற்றூணில் அடிபடல் \n செபத்தை ஒலிப்பதிவு செய்த பின் கேக்கவும் </string>
+    <string name="toast14">முள்முடி சூடல் \n செபத்தை ஒலிப்பதிவு செய்த பின் கேக்கவும் </string>
+    <string name="toast15">சிலுவையை சுமத்தல் \n செபத்தை ஒலிப்பதிவு செய்த பின் கேக்கவும் </string>
+    <string name="toast16">சிலுவையில் இறத்தல் \n செபத்தை ஒலிப்பதிவு செய்த பின் கேக்கவும் </string>
+    <string name="toast17">சிலுவையில் உயிர்த்தெழல் \n செபத்தை ஒலிப்பதிவு செய்த பின் கேக்கவும் </string>
+    <string name="toast18">விண்ணகம் செல்லல் \n செபத்தை ஒலிப்பதிவு செய்த பின் கேக்கவும் </string>
+    <string name="toast19">ஆவியானவர் வருகை \n செபத்தை ஒலிப்பதிவு செய்த பின் கேக்கவும் </string>
+    <string name="toast20">மரியாள் விண்ணகம் செல்லல் \n செபத்தை ஒலிப்பதிவு செய்த பின் கேக்கவும் </string>
+    <string name="toast21">மரியாள் அரசியாக முடிசூடல் \n செபத்தை ஒலிப்பதிவு செய்த பின் கேக்கவும்  </string>
+    <string name="toast22">இயேசுவின் திருமுழுக்கு \n செபத்தை ஒலிப்பதிவு செய்த பின் கேக்கவும் </string>
+    <string name="toast23">தண்ணீர் திரட்சைரசமாதல் \n செபத்தை ஒலிப்பதிவு செய்த பின் கேக்கவும் </string>
+    <string name="toast24">இறையரசை அறிவித்தல் \n செபத்தை ஒலிப்பதிவு செய்த பின் கேக்கவும் </string>
+    <string name="toast25">இயேசுவின் உருமாற்றம் \n செபத்தை ஒலிப்பதிவு செய்த பின் கேக்கவும்  </string>
+    <string name="toast26">நற்கருணையை ஏற்படுத்துதல் \n செபத்தை ஒலிப்பதிவு செய்த பின் கேக்கவும் </string>
+    <string name="toast27">புனித மைக்கேல் பிரார்த்தனை \n செபத்தை ஒலிப்பதிவு செய்த பின் கேக்கவும் </string>
+ 
+<!-- Rosary Audio - Tab  -->
+
+ 
+ <string name="custtoastt">தனிப்பயனாக்கம், இலவச பதிப்பில் இல்லை.</string>
+ <string name="custtoastt2">தனிப்பயனாக்கம் செய்ய, பிரதிபலிக்கின்ற ஜெபமாலையின் கட்டண பதிப்பை தயவு செய்து பதிவிறக்கம் செய்யுங்கள்.</string>
+  <string name="custtoastt3">பிரதிபலிக்கின்ற ஜெபமாலையை  பதிவிறக்கம்  செய்ததற்க்கு  நன்றி.</string>
+   <string name="custtoastt4">Personalization feature is not available in free version.</string>
+    <string name="custtoastt5">To personalize, please download the paid version of Reflective Rosary.</string>
+     <string name="custtoastt6">Thank you for downloading Reflective Rosary.</string>
+     
+<string name="playlink"><a href="https://play.google.com/store/apps/details?id=com.gaddiel.holyrosary">PURCHASE</a></string>
+ 
+ <!-- Record Audio - Tab  -->
+  <string name="Saverectoast">ஒலிப்பதிவு சேமிக்கப்பட்டது</string>
+  <string name="stop">சேமிக்கவும்</string>
+  <string name="record">ஒலிப்பதிவு</string>
+  <string name="timer">Timer</string>
+  
+ <!-- Colors  -->
+   
+   <color name="mystry">#FFFFFF</color>
+    <color name="listBg">#f2eaea</color>
+    <color name="audiotext">#FFFFFF</color>
+    <color name="heading">#000000</color>
+    
+	  <!-- ALARM -->
+   
+    <string name="alarm">Set Alarm</string>
+    <string name="alarmhead">Set Time</string>       
+    <string name="alarmsun">ஞாயிறு</string>
+    <string name="alarmmon">திங்கள்</string>
+    <string name="alarmtue">செவ்வாய்</string>
+    <string name="alarmwed">புதன்</string>
+    <string name="alarmthu">வியாழன்</string>
+    <string name="alarmfri">வெள்ளி</string>
+    <string name="alarmsat">சனி</string>
+    <string name="alarmon">Alarm ON</string>
+    <string name="alarmoff">Alarm OFF</string>
+    
+  <!--  -->    
+	
+ <!-- Menu  -->
+        <string name="about">About Us</string>
+     
+        
+        
+<!-- Help  -->   
+<string name="help1">Help</string>
+<color name="helpcolor">#FFFF00	</color>   
+     <string name="help">Help</string>
+        <string name="link"><a href="http://gaddieltech.com/index.php/portfolio/mobile-apps">How to use the Reflective Rosary Tamil v1.2 ?</a></string>    
+  <!--About us -->        
+   <string name="addre">Gaddiel Technologies Pvt Ltd..  </string> 
+   <string name="tel">+91 431 2457778 \n +1 347 478 6444</string>   
+   <string name="web">www.gaddieltech.com</string>   
+   <string name="email"> rosary@gaddieltech.com</string>  
+   <string name="abo">About \nReflective Rosary Tamil  v1.2</string> 
+   <string name="aboro">This App provides features to record and play the prayers in the favorite voice(s) of the user to have a feeling of family prayer.\nVariations and common pious additions to the Mysteries  can be done during users recordings and played in user favorite voice.The potential is endless and is restricted only by user device limitations.\n\n As it reflects the users desires, it is named Reflective Rosary.</string> 
+    <string name="aline">                 &#8211;&#8211;&#8211;&#8211;&#8211;&#8211;&#8211;&#8211;&#8211;&#8211;&#8211;&#8211;&#8211;&#8211;&#8211;&#8211;&#8211;&#8211;&#8211;&#8211;&#8211;</string>
+
+   
+   
+   <string name="language">மொழியை தேர்ந்தெடுக்கவும்</string>
+    <string-array name="lang">
+          <item>English</item>
+        <item>தமிழ்</item>
+        <item>हिंदी</item>        
+    </string-array>    
+    <string name="Lable">Today is Joyfull</string>
+    <string name="Select">தேர்ந்தெடுத்துள்ளீர்கள்</string>
+</resources>
+
